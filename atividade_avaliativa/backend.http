@@ -1,0 +1,23 @@
+http://localhost:3333/leaderboard
+
+### 
+
+POST http://localhost:3333/leaderboard
+Content-Type: application/json
+
+{
+    "id": "3",
+    "nickname": "Tiara55",
+    "game": 3,
+    "score": 892
+}
+
+### 
+
+http://localhost:3333/leaderboard?game=3
+
+### 
+
+http://localhost:3333/leaderboard?game=2&score_gt=4000
+
+
